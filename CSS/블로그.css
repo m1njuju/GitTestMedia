@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(228, 107, 63);
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.notic {
+    border: 1px solid black;
+    height: 250px;
+}
+
+.notic h3 {
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.content h3 {
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+.content_1, .content_2, .content_3, .content_4 {
+    display: inline-block;
+    background-color: rgb(232, 246, 185);
+    border-radius: 10px;
+    height: 250px;
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
