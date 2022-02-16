@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 header {
     background-color: rgb(228, 107, 63);
     text-align: center;
@@ -19,21 +23,25 @@ li a {
 .notic {
     border: 1px solid black;
     height: 250px;
+    margin-top: 10px;
 }
 
 .notic h3 {
     text-align: center;
+    padding: 10px;
 }
 
 .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    padding: 10px;
 }
 
 .content h3 {
     text-align: center;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid brown;
+    padding: 10px;
 }
 
 .content_1, .content_2, .content_3, .content_4 {
